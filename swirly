@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+		text-align: center;
+		padding: 100px 0 0 0;
+		color: #fff;
+		background: #1d1f20;
+}
+
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+</style>
+</head>
+<body>
+<img id="loading" src="spiral.png" alt="spiral" >
+</body>
+</html>
